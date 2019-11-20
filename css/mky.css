@@ -39,22 +39,22 @@ body{
 .grid{
     width: 1000px;
     height: 200px;
-    margin:auto;
+    margin:20px 50px 0px 50px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-column-gap: 30px;
     
 }
 .grid-item{
-    background-image: url(../images/RoboDog.jpg)
     padding : 30px;
     box-shadow: 0px 2px 1px 2px whitesmoke;
+    height: auto;
 }
 footer{
  background-color: black;
  width: auto;
  height: 150px;
- margin: 10px 0px 0px 0px;
+ margin: 150px 0px 0px 0px;
 }
 footer .fab{
     color: white;
@@ -97,7 +97,7 @@ top: 90px;
 background-color: gray;
 display: grid;
 grid-template-rows: auto auto auto;
-grid-row-gap: 30px
+grid-row-gap: 30px;
 }
 .layout{
     display: grid;
@@ -126,7 +126,62 @@ grid-row-gap: 30px
     position: absolute;
 }
 .circle1{
-    margin-left: 110px;
-    margin-bottom: ;
+    margin: 0px 100px 0px 100px;
     font-size: 40px;
+    background-color;: white;
+}
+.robo{
+    width: 350px;
+}
+.grid-item:hover{
+    background-color: gray;
+    color: black;
+    padding: 0px 10px;
+    height: auto;
+    transition: all 0.5s ease 0s;
+}
+@media only screen less than (max-width:768px){
+    #heading{
+        width: fit-content;
+        height: 100px;
+        margin: 10px;
+    }
+    #heading ul li {
+        display: inline-block;
+        color: white;
+        margin: 5px;
+      }
+      #heading ul li h1{
+        margin: 10px;
+      }
+     .circle1{
+        margin-left: 40px;
+        font-size: 40px;
+    }
+    .one{
+            height:488px;
+            position: relative;
+            width: auto;
+            margin: 10px;
+     }
+     .btn{
+        margin: 30px 10px 0px 30px;
+     }
+     .p1{
+        margin: 30px;
+        font-size: 30px;
+        color: whitesmoke;
+    }
+    .grid{
+        position: absolute;
+        width: 400px;
+        height: 958.76px;
+        margin: 20px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 30px;
+    }
+    .grid-item{
+ }
+
 }
